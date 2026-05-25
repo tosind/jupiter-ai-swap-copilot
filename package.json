@@ -1,0 +1,20 @@
+{
+  "name": "jupiter-ai-swap-copilot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "test": "node --test",
+    "build": "vite build",
+    "submission:validate": "node scripts/validate-submission-package.js",
+    "demo-kit:validate": "node demo-kit/scripts/validate-kit.js",
+    "fulfillment-kit:validate": "node fulfillment-kit/scripts/validate-fulfillment-kit.js"
+  },
+  "dependencies": {
+    "vite": "^7.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.59.1"
+  }
+}
