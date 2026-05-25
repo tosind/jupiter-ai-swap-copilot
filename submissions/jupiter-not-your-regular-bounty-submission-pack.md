@@ -31,12 +31,10 @@ The submission includes a DX report focused on Jupiter's AI developer experience
 
 ### Project GitHub Link
 
-Blocked: needs public repository URL from CEO or Scout before final submit.
-
-Suggested value once published:
+Published repository:
 
 ```text
-<PUBLIC_REPO_URL>
+https://github.com/tosind/jupiter-ai-swap-copilot
 ```
 
 ### Submitted to Frontier Hackathon on Colosseum?
@@ -106,14 +104,14 @@ Optional. A 60-90 second video should show:
 - Mobile screenshot exists
 - DX report exists
 - Safety boundary is documented in both app copy and report
-- Public repo URL is provided
+- Public repo URL is provided: https://github.com/tosind/jupiter-ai-swap-copilot
 - Colosseum project profile URL is provided
 - CEO approves final submission/contact details
 
 ## Submission Risks
 
 - The app is fixture-first, not live API-backed. This is intentional for safety and reproducibility, but the submission should explain that live read-only API mode is pending approved Developer Platform account access.
-- No public GitHub URL is present in the workspace. The bounty requires a project link, so this cannot be submitted until the repo or archive is published.
+- Public GitHub URL is now available. Final submission still needs the owner-controlled Colosseum/profile/account fields below.
 - No Colosseum profile link is present. The Superteam listing asks whether the project was also submitted to the official Frontier Hackathon, so the owner should create or confirm that profile before final submission.
 - Do not add private API keys, wallet addresses, seed phrases, or contact claim codes to this file.
 
@@ -121,7 +119,7 @@ Optional. A 60-90 second video should show:
 
 Ready for Scout submission after these BAI-10 fields are supplied:
 
-- Public GitHub/project URL
+- Public GitHub/project URL: https://github.com/tosind/jupiter-ai-swap-copilot
 - Colosseum project profile URL
 - Developer Platform account email confirmation, without secrets
 - Optional public demo/video URL
