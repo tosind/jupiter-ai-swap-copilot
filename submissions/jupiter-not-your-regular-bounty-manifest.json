@@ -1,0 +1,51 @@
+{
+  "project": {
+    "name": "Jupiter AI Swap Copilot",
+    "listingUrl": "https://superteam.fun/earn/listing/not-your-regular-bounty",
+    "publicRepository": "https://github.com/tosind/jupiter-ai-swap-copilot",
+    "descriptionFile": "submissions/jupiter-not-your-regular-bounty-submission-pack.md",
+    "dxReportFile": "DX-REPORT.md",
+    "appEntry": "index.html",
+    "validationScript": "scripts/validate-submission-package.js",
+    "deployConfig": "netlify.toml",
+    "deployHandoff": "submissions/jupiter-public-demo-deploy-handoff.md",
+    "githubPublicationHandoff": "submissions/jupiter-github-publication-handoff.md",
+    "colosseumProfileHandoff": "submissions/jupiter-colosseum-profile-handoff.md",
+    "ceoApprovalRequest": "submissions/jupiter-ceo-approval-request.md",
+    "approvalDecisionLog": "submissions/jupiter-approval-decision-log.md",
+    "sourceFiles": [
+      "src/fixtures.js",
+      "src/jupiter.js",
+      "src/main.js",
+      "src/styles.css"
+    ],
+    "testFiles": [
+      "test/jupiter.test.js"
+    ],
+    "screenshots": [
+      "artifacts/jupiter-copilot-desktop.png",
+      "artifacts/jupiter-copilot-mobile.png"
+    ],
+    "submissionArchive": {
+      "path": "submissions/jupiter-not-your-regular-bounty-submission-archive.tar.gz",
+      "sha256": "de07b22ae852e3375c0b816a32bf88be6f3ddffbacfcbcb03f26ac70ad29ca8a",
+      "notesFile": "submissions/jupiter-submission-archive.md"
+    }
+  },
+  "safetyBoundary": {
+    "liveApiCallsEnabled": false,
+    "walletSigningEnabled": false,
+    "transactionExecutionEnabled": false
+  },
+  "readiness": {
+    "localTests": "passing",
+    "publicRepository": "published",
+    "ceoReview": "approved",
+    "finalSubmission": "blocked"
+  },
+  "blockers": [
+    "BAI-10: provide Developer Platform account email confirmation",
+    "BAI-10: provide Colosseum project profile URL or approve submission without it",
+    "BAI-10: approve final Superteam contact and submission wording"
+  ]
+}
